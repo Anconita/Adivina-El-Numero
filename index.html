@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/06574022d8.js" crossorigin="anonymous"></script>
+    <title> Practicas </title>
+    <link rel="stylesheet" media="(max-width: 800px)" href="responsive.css" />
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header>
+        <div class="Contenedor_titulo_Header"></div>
+        <h1 class="Titulo_Header">KonangGC</h1>
+        <div class="Contendor_Logos_header">
+            <button class="Boton_Header">
+                <i id="Icono_Sol" class="Logo_Header fa-solid fa-sun" title="Modo Claro"></i>
+                <i id="Icono_Luna" class="Logo_Header fa-solid fa-moon" title="Modo Oscuro"></i>
+            </button>
+
+            <a href="https://youtube.com/" target="_blank" title="Youtube">
+                <i id="Icono_Youtube" class="Logo_Header fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://github.com/Anconita" target="_blank" title="GitHub">
+                <i id="Icono_GitHub" class="Logo_Header fa-brands fa-github"></i>
+            </a>
+        </div>
+    </header>
+
+    <!--CONTENIDO PRINCIPAL-->
+    <div class="Contenedor_Principal">
+        <h1 class="Titulo_Principal">Adivina el Numero</h1>
+        <div class="Contenedor_Numeros">
+
+            <!--Numero del Usuario-->
+            <div class="Contenedor_Usuario">
+                <p id="Parrafo_Usuario">Usuario</p>
+                <div class="Contenedor_Numero_Usuario">
+                    <p class="Numero_Usuario"></p>
+                </div>
+            </div>
+
+            <!--Numero de la Consola-->
+            <div class="Contenedor_Consola">
+                <p id="Parrafo_Consola">Consola</p>
+                <div class="Contenedor_Numero_Consola">
+                    <p class="Numero_Consola"></p>
+                </div>
+            </div>
+        </div>
+
+        <h1 id="Titulo_Perder">Perdiste.</h1>
+        <h1 id="Titulo_Ganar">GANASTE!!!</h1>
+        <div class="Contenedor_Botones">
+            <button id="Boton_Empezar">Empezar</button>
+            <button id="Boton_Reintentar">Reintentar</button>
+            <select name="Numero" class="Eleccion_Numero">
+                <option value="N">Elige tu Numero</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class='Contenedor_Footer'>
+            <h1>KonangGC</h1>
+            <p>Somos expertos en la creacion de tus sueños</p>
+            <div class="CopyRight">
+                <p>©copyright 2022</p>
+            </div>
+        </div>
+
+
+        <div id="Linea"></div>
+    </footer>
+
+
+    <!--JavaScript-->
+    <script src="js/app.js"></script>
+    <script src="js/ModoOscuro.js"></script>
+</body>
+
+</html>

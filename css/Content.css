@@ -1,0 +1,271 @@
+/*
+Elementos
+Contenedores
+Contenido
+Titulos
+IDs
+imagenes y logos
+hovers
+*/
+
+
+/*ELEMENTOS*/
+body {
+  background: rgb(0, 168, 255);
+  background: radial-gradient(circle, rgba(0, 168, 255, 1) 30%, rgba(0, 139, 208, 1) 68%, rgba(0, 77, 106, 1) 100%);
+
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+}
+
+footer {
+  margin-top: 100vh;
+  padding: 40px 20% 1px 20%;
+
+  color: white;
+  background-color: rgb(23, 116, 208);
+  box-shadow: inset 0 0 2px 1px rgb(75, 75, 75), 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+a{
+  color: black;
+}
+
+/*CONTENEDORES*/
+.Contenedor_Principal {
+  text-align: center;
+  position: absolute;
+
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 4vh;
+  margin-left: 50vh;
+  margin-right: 50vh;
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 20px 20px 20px rgb(0, 1, 72);
+
+  background-color: rgb(243, 243, 243);
+}
+
+.Contenedor_Numeros {
+  display: flex;
+  justify-content: center;
+
+  padding: 50px;
+
+}
+
+.Contenedor_Usuario {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.Contenedor_Numero_Usuario,
+.Contenedor_Numero_Consola {
+  width: 150px;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+
+  border: rgb(142, 68, 173) 10px solid;
+  border-radius: 15px;
+  box-shadow: inset 0 0 5px 3px rgb(75, 75, 75), 0 0 15px rgba(0, 0, 0, 0.8);
+
+  User-select: none;
+}
+
+.Contenedor_Consola {
+  text-align: center;
+  margin-left: 100px;
+}
+
+.Contenedor_Footer {
+  padding-bottom: 25px;
+}
+
+
+/*CONTENIDO*/
+.Numero_Usuario {
+  font-size: 100px;
+
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+}
+
+.Numero_Consola {
+  font-size: 100px;
+
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+}
+
+.Eleccion_Numero {
+  font: inherit;
+  position: relative;
+
+  border: rgb(142, 68, 173) 2px solid;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 0.5em 1.5em 0.5em 1em;
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  transition: border-radius 0.3s;
+
+  /* reset */
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.CopyRight {
+  margin-top: 15px;
+}
+
+/*TITULOS*/
+.Titulo_Principal {
+  font-size: 65px;
+
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+}
+
+#Titulo_Ganar {
+  position: relative;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 5px;
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(47, 255, 0);
+}
+
+#Titulo_Perder {
+  position: absolute;
+  margin-bottom: 1000px;
+  margin-left: 365px;
+  padding: 5px;
+
+  background-color: rgb(0, 0, 0);
+  box-shadow: inset 0 0 2px 1px rgb(213, 216, 220);
+  color: rgb(255, 0, 0);
+}
+
+
+/*IDs*/
+#Parrafo_Usuario {
+  font-size: 35px;
+}
+
+#Parrafo_Consola {
+  font-size: 35px;
+}
+
+#Boton_Empezar {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+
+  padding: 22px 100px 22px 100px;
+  margin-top: 95px;
+  margin-left: 290px;
+  background-color: rgb(40, 180, 99);
+  color: white;
+
+  border: none;
+  border-radius: 20px;
+
+  box-shadow: inset 0 0 3px 1px rgb(75, 75, 75), 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+#Boton_Reintentar {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+
+  padding: 20px 95px 20px 95px;
+  margin-top: 10vh;
+  margin-left: 290px;
+  margin-right: 100px;
+  background-color: rgb(236, 112, 99 );
+  color: white;
+  border: none;
+  border-radius: 20px;
+
+  box-shadow: inset 0 0 3px 1px rgb(75, 75, 75), 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+
+#Linea {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 60px;
+}
+
+/*IMAGENES Y LOGOS*/
+
+
+/*HOVERS*/
+.Contenedor_Principal:hover {}
+
+.Contenedor_Numero_Usuario:hover,
+.Contenedor_Numero_Consola:hover {
+  border: rgb(103, 28, 134) 10px solid;
+}
+
+#Boton_Empezar:hover {
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+
+  background-color: rgb(46, 204, 113);
+
+}
+
+#Boton_Empezar:active {
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+  font-size: 24px;
+
+  padding: 22.7189px 102px 22.6px 102px;
+
+  background-color: rgb(48, 164, 96);
+}
+
+#Boton_Reintentar:hover {
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+
+  background-color: rgb(231, 76, 60 );
+}
+
+#Boton_Reintentar:active {
+  text-shadow: 2px 2px 5px rgb(136, 136, 136);
+  font-size: 24px;
+
+  padding: 20.7189px 97px 20.6px 97px;
+
+  background-color: rgb(218, 72, 56);
+}
+
+
+.Eleccion_Numero:hover {
+
+  border: rgb(142, 68, 173) 2px solid;
+  border-radius: 15px;
+
+}
+
+.Eleccion_Numero:active {
+  border: rgb(142, 68, 173) 2px solid;
+  border-radius: 15px;
+}

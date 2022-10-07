@@ -1,0 +1,100 @@
+/*
+Contenedores
+Contenido
+Imagenes y logos
+*/
+
+
+/*CONTENEDORES*/
+#Contenedor_Principal_Oscuro{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(0, 10, 74);
+
+  background-color: rgb(33, 33, 33);
+}
+
+#Contenedor_Numero_Usuario_Oscuro, #Contenedor_Numero_Consola_Oscuro {
+  border: rgb(175, 122, 197) 10px solid;
+  border-radius: 15px;
+
+  background-color: rgb(17, 17, 17);
+
+}
+
+#Contenedor_Numero_Usuario_Oscuro:hover , #Contenedor_Numero_Consola_Oscuro:hover{
+  
+  border: rgb(197, 141, 220) 10px solid;
+  border-radius: 15px;
+
+  background-color: rgb(17, 17, 17);
+}
+
+
+
+/*CONTENIDO*/
+.Modo_Oscuro {
+  background-image: radial-gradient(circle at 50% 50%, #006ea7 0, #00304d 50%, #000000 100%);
+  color: white;
+}
+
+.Eleccion_Numero_Oscuro{
+  font: inherit;
+
+  color: white;
+  background-color: black;
+  border: rgb(142, 68, 173) 2px solid ;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 0.5em 1.5em 0.5em 1em;
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.8); 
+  transition: border-radius 0.3s;
+
+  /* reset */
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.Header_Oscuro{
+  background: rgb(0, 82, 124);
+}
+
+#Boton_Header_Oscuro{
+  background: rgb(0, 82, 124);
+
+}
+
+.Footer_Oscuro{
+  background: rgb(0, 82, 124);
+}
+
+
+/*IMAGENES Y LOGOS*/
+
+#Icono_Youtube_Oscuro{
+  color: rgb(255, 255, 255);
+  margin-left: 7px;
+
+  
+  transition: color 0.3s;
+}
+
+#Icono_GitHub_Oscuro{
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+
+  transition: color 0.3s;
+}
+
+#Icono_Youtube_Oscuro:hover, #Icono_GitHub_Oscuro:hover{
+  color: rgb(0, 0, 0);
+}
+
+

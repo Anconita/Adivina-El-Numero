@@ -1,0 +1,141 @@
+/*Elementos
+Contenedores
+contenido
+imagenes y logos
+ids
+hovers
+*/
+
+
+/*Elementos*/
+header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+
+  background-color: rgb(23, 116, 208);
+  box-shadow: inset 0 0 2px 1px rgb(75, 75, 75), 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+a:visited {
+  color: black;
+}
+
+/*CONTENEDORES*/
+.Contendor_Logos_header {
+  
+}
+
+.Contenedor_titulo_Header {
+  margin-left: 150px;
+}
+
+/*CONTENIDO*/
+.Titulo_Header {
+  color: white;
+  margin-left: 125px;
+}
+
+.Boton_Header {
+  background-color: rgb(23, 116, 208);
+  border: none;
+  cursor: pointer;
+}
+
+.Ocultar {
+  visibility: hidden;
+}
+
+.Mostrar {
+  visibility: visible;
+}
+
+/*IMAGENES Y LOGOS*/
+.Logo_Header {
+  height: 50px;
+  width: 50px;
+  font-size: 55px;
+}
+
+.Icono_Header {
+  font-size: 50px;
+}
+
+
+/*IDs*/
+#Icono_Sol {
+  position: fixed;
+
+  margin-left: 45px;
+  padding: 4px 7px 7px 4px;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(28, 40, 51);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+
+  transition: box-shadow 0.8s, border-radius 0.5s;
+}
+
+
+#Icono_Luna {
+  position: relative;
+  margin-left: 55px;
+  padding-bottom: 5px;
+
+
+  background-color: rgb(242, 243, 244);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+
+
+  transition: box-shadow 0.8s, border-radius 0.5s;
+}
+
+#Icono_GitHub {
+  margin-left: 15px;
+
+
+  transition: color 0.3s;
+
+}
+
+#Icono_Youtube {
+  margin-left: 7px;
+
+  transition: color 0.3s;
+}
+
+
+/*HOVERS*/
+.Logo_Header:hover {
+  color: rgb(255, 255, 255);
+}
+
+#Icono_Sol:hover {
+  color: rgba(255, 255, 255, 0.587);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+}
+
+
+#Icono_Luna:hover {
+  color: rgba(66, 66, 66, 0.824);
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+#Icono_GitHub:hover {}
+
+#Icono_Youtube:hover {}
+
+/*ACTIVE*/
+#Icono_Sol:active {
+  color: rgb(75, 75, 75);
+}
+
+#Icono_Luna:active {
+  background-color: rgb(209, 209, 209);
+}
