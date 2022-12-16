@@ -20,6 +20,7 @@ body {
 footer {
   margin-top: 100vh;
   padding: 40px 20% 1px 20%;
+  min-width: 700px;
 
   color: white;
   background-color: rgb(23, 116, 208);
@@ -42,6 +43,7 @@ a{
   margin-top: 4vh;
   margin-left: 50vh;
   margin-right: 50vh;
+  min-width: 875px;
 
   border: none;
   border-radius: 15px;
